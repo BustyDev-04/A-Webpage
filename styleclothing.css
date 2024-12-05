@@ -1,0 +1,20 @@
+.rowg-4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.rowg-4 .col-md-4 {
+    position: relative; 
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.rowg-4 .col-md-4 .card .card-img-top {
+    align-items: center;
+    height: 200px;
+    object-fit: cover;
+}
